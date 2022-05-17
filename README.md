@@ -11,12 +11,12 @@ Note: I am not really sure if you really need to install MariaDB. In any case, t
 
 ## Java classes Explained
 
-The primary objective of this project is to train the MVC schema in order to perform it on future project. 
+The primary objective of this project is to train the MVC schema in order to perform it on future projects. 
 This style of developing projects it is an interesting one because you make independent many things so that if you want to modify some parts of the code (like for example the querys) you only need to modify the Model class.
 
 ![Image text](https://github.com/JohanSantanaGalvanJob/Alphabet-Soup/blob/master/README_images/base_de_datos.PNG)
 
-The view class contains all of the graphic part of the project and its like the main class where the model and the controller class will be implemented.
+The view class contains all of the graphic part of the project and it is like the main class where the model and the controller class will be implemented.
 All of these will be implemented by methods of the buttons that performs the actions when clicked. For example, there is a button where it puts the word that you have written in the database using a method of the model class.
 
 ![Image text](https://github.com/JohanSantanaGalvanJob/Alphabet-Soup/blob/master/README_images/palabra.PNG)
